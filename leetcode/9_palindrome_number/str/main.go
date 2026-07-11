@@ -1,10 +1,17 @@
-package solution
+package main
 
 import (
+	"fmt"
 	"strconv"
 )
 
-func isPalindromeStr(x int) bool {
+func main() {
+	x := 121
+
+	fmt.Println(isPalindrome(x))
+}
+
+func isPalindrome(x int) bool {
 	if x < 0 {
 		return false
 	}

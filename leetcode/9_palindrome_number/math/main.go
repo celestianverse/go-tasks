@@ -1,6 +1,14 @@
-package solution
+package main
 
-func isPalindromeMath(x int) bool {
+import "fmt"
+
+func main() {
+	x := 121
+
+	fmt.Println(isPalindrome(x))
+}
+
+func isPalindrome(x int) bool {
 	if x == 0 {
 		return true
 	}
