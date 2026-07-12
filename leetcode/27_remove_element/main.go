@@ -2,11 +2,6 @@ package main
 
 import "fmt"
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func main() {
 	input := []int{2, 9, 8, 2, 7, 6, 5, 2}
 
