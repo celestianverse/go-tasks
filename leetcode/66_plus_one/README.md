@@ -28,6 +28,3 @@ Explanation: The array represents the integer 9. Incrementing by one gives 10.
 - `1 <= digits.length <= 100`
 - `0 <= digits[i] <= 9`
 - `digits` does not contain any leading zeros
-
-## Hint
-Process digits from right to left, handling carry; prepend `1` if all digits are `9`.
