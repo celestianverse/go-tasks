@@ -26,6 +26,3 @@ Output: `4`
 - `-10^4 <= nums[i] <= 10^4`
 - `nums` contains distinct values sorted in ascending order
 - `-10^4 <= target <= 10^4`
-
-## Hint
-Use binary search to achieve the required O(log n) runtime.
